@@ -14,7 +14,7 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "deamon": "pm2 start ./node_modules/nuxt/bin/nuxt-start -i max --attach",
+    "deamon": "pm2 start ./node_modules/nuxt/bin/nuxt-start --name 'nuxt-test'",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint"
